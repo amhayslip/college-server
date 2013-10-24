@@ -1,0 +1,5 @@
+ASIN::Configuration.configure do |config|
+  config.secret        = 'secret'
+  config.key           = 'key'
+  config.associate_tag = 'tag'
+end
